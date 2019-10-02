@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap - CSS  dfkal;gkdfglkfdlgkdflkgmdflkgmdflgkmdfgldfmgldfm-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap - JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- user defined CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header starts here -->
+	 <!-- Bootstrap - CSS  dfkal;gkdfglkfdlgkdflkgmdflkgmdflgkmdfgldfmgldfm-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="bg-dark p-4 myLogo">
+            <h2 class="text-white">School Management System</h2>
+        </div>
+    </nav>
+    <!-- header ends here -->
+
+    <!-- main menu bar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light preLogin">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto myMainMenu">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="personalDetails" role="button"
+                        data-toggle="dropdown" aria-haspopup="true">
+                        Personal Details
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="javascript:void(0);" id="schoolName">School Name</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="schoolAddress">School Address</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="renewalUpto">Renewal Upto</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="contactThirdParty">Contact Third
+                            Party</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Student Exam Results
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="javascript:void(0);" id="studentResultSearch">Student Result
+                            Search</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="classWiseResults">Class-wise Results</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="resultsChart">Results Chart</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="top10Students">Top 10 Students</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="feeDetails" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fee Details
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="javascript:void(0);" id="studentWiseFeeSearch">Student-wise Fee
+                            Search</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="classWiseFeeDetails">Class-wise Fee Details</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="resultsChart2">Results Chart</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="studentDailyMenu">Student Daily Menu</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="studentDailyMenu2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Student Daily Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="javascript:void(0);"
+                            id="classWiseAttendanceEditUpdate">Class-wise Attendance Edit / Update</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0);" id="attendanceReport">Attendance Report</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- add class = "dropdown-toggle" to show dropdown arrow-->
+                    <a class="nav-link" href="javascript:void(0);" id="qrCodeReading" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        QR-Code Reading
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void(0);" id="studentMarksMenu" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Student Marks Menu
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void(0);" id="aboutSchool" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About School
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-danger" onclick="logMeOut()">Log Out</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main menu bar ends here -->
+    <div class="menuBody">
+    </div>
+    <!-- login form starts here -->
+    <div class="container loginForm">
+        <div class="form-group">
+            <label for="email">Username:</label>
+            <input type="text" class="form-control" id="username">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="logMeIn()">Log In</button>
+        <button type="button" class="btn btn-info" onclick="clearForm()">Reset</button>
+    </div>
+    <!-- login form ends here -->
+
+    <!-- image part starts here-->
+    <div class="preLogin bannerImage">
+        <img src="images/school.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    <!-- image part ends here -->
+
+    <!-- footer starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="bg-dark p-4">
+            <h4 class="text-white">School Management System</h4>
+            <span class="text-muted">All Rights Reserved</span>
+        </div>
+    </nav>
+    <!-- footer ends here -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
